@@ -1,0 +1,42 @@
+[
+  {
+    "id": "user-001",
+    "username": "john.rm",
+    "password": "password123",
+    "name": "John Doe",
+    "role": "RM",
+    "email": "john.rm@bank.com",
+    "created_at": "2024-01-01T00:00:00Z",
+    "is_active": true
+  },
+  {
+    "id": "user-002",
+    "username": "sarah.analyst",
+    "password": "password123",
+    "name": "Sarah Smith",
+    "role": "Credit_Analyst",
+    "email": "sarah.analyst@bank.com",
+    "created_at": "2024-01-01T00:00:00Z",
+    "is_active": true
+  },
+  {
+    "id": "user-003",
+    "username": "michael.approver",
+    "password": "password123",
+    "name": "Michael Johnson",
+    "role": "Approver",
+    "email": "michael.approver@bank.com",
+    "created_at": "2024-01-01T00:00:00Z",
+    "is_active": true
+  },
+  {
+    "id": "user-004",
+    "username": "admin",
+    "password": "admin123",
+    "name": "Admin User",
+    "role": "Admin",
+    "email": "admin@bank.com",
+    "created_at": "2024-01-01T00:00:00Z",
+    "is_active": true
+  }
+]

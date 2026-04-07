@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clear LOS Cache</title>
+</head>
+<body>
+    <h1>Clearing LOS Application Cache...</h1>
+    <div id="status">Processing...</div>
+    <script>
+        // Clear all localStorage
+        localStorage.clear();
+        
+        // Show what was cleared
+        document.getElementById('status').innerHTML = `
+            <h2 style="color: green;">✓ Cache Cleared Successfully!</h2>
+            <p>The following items were cleared:</p>
+            <ul>
+                <li>applications_cache</li>
+                <li>documents_cache</li>
+                <li>analyses_cache</li>
+                <li>decisions_cache</li>
+                <li>audit_logs_cache</li>
+                <li>policy_config_cache</li>
+            </ul>
+            <p><strong>Next steps:</strong></p>
+            <ol>
+                <li>Close this tab</li>
+                <li>Go back to your LOS application</li>
+                <li>Refresh the page (Cmd+R or Ctrl+R)</li>
+                <li>Login again</li>
+            </ol>
+            <p style="color: #666; font-size: 14px;">
+                The application will now load fresh data from the JSON files.
+            </p>
+        `;
+    </script>
+</body>
+</html>

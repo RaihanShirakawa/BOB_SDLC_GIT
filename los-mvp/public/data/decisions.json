@@ -1,0 +1,56 @@
+[
+  {
+    "id": "DEC-001",
+    "applicationId": "APP-2026-004",
+    "analysisId": "ANL-002",
+    "recommendedBy": "user-002",
+    "recommendedDecision": "APPROVE",
+    "recommendedAt": "2026-03-04T09:30:00.000Z",
+    "approverId": "user-003",
+    "finalDecision": "APPROVED",
+    "conditions": [
+      "Annual financial statement submission required",
+      "Maintain collateral insurance throughout loan period",
+      "Notify bank of any major business changes within 30 days",
+      "Maintain minimum DSCR of 1.2"
+    ],
+    "approverNotes": "Excellent agricultural business with strong track record. Approved with standard conditions.",
+    "decidedAt": "2026-03-04T10:00:00.000Z"
+  },
+  {
+    "id": "DEC-002",
+    "applicationId": "APP-2026-008",
+    "analysisId": "ANL-004",
+    "recommendedBy": "user-002",
+    "recommendedDecision": "APPROVE",
+    "recommendedAt": "2026-03-02T11:00:00.000Z",
+    "approverId": "user-003",
+    "finalDecision": "APPROVED",
+    "conditions": [
+      "Semi-annual financial reporting mandatory",
+      "Equipment insurance required with bank as loss payee",
+      "Maintain minimum working capital ratio of 1.5",
+      "Quarterly business performance review"
+    ],
+    "approverNotes": "Strong manufacturing business with excellent fundamentals. Equipment purchase will enhance productivity. Approved.",
+    "decidedAt": "2026-03-02T14:30:00.000Z"
+  },
+  {
+    "id": "DEC-003",
+    "applicationId": "APP-2026-012",
+    "analysisId": "ANL-006",
+    "recommendedBy": "user-002",
+    "recommendedDecision": "APPROVE",
+    "recommendedAt": "2026-03-01T15:30:00.000Z",
+    "approverId": "user-003",
+    "finalDecision": "APPROVED",
+    "conditions": [
+      "Annual financial statement submission",
+      "Standard loan covenants apply",
+      "Maintain property insurance with bank as mortgagee",
+      "Crop insurance recommended for risk mitigation"
+    ],
+    "approverNotes": "Very low risk profile with excellent financials and long operating history. Approved with standard terms.",
+    "decidedAt": "2026-03-01T16:45:00.000Z"
+  }
+]

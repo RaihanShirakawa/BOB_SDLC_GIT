@@ -1,0 +1,22 @@
+{
+  "thresholds": {
+    "min_dscr": 1.2,
+    "min_collateral_coverage": 1.0,
+    "max_loan_amount": 2000000000,
+    "min_years_in_business": 2,
+    "min_credit_score": 650
+  },
+  "required_documents": [
+    "Bank_Statement",
+    "Financial_Statement",
+    "ID_KYC",
+    "Collateral_Proof"
+  ],
+  "risk_weights": {
+    "dscr": 0.3,
+    "collateral_coverage": 0.25,
+    "credit_score": 0.25,
+    "years_in_business": 0.2
+  },
+  "interest_rate_default": 0.12
+}

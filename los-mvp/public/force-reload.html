@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Force Reload LOS Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .status {
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+            background: #e3f2fd;
+            color: #1976d2;
+        }
+        .success {
+            background: #e8f5e9;
+            color: #388e3c;
+        }
+        button {
+            padding: 12px 24px;
+            background: #2196f3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            margin: 10px 5px;
+        }
+        button:hover {
+            background: #1976d2;
+        }
+        .danger {
+            background: #f44336;
+        }
+        .danger:hover {
+            background: #d32f2f;
+        }
+        ul {
+            text-align: left;
+            line-height: 1.8;
+        }
+        code {
+            background: #f5f5f5;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔄 Force Reload LOS Data</h1>
+        <div id="status" class="status">
+            Ready to clear cache and reload fresh data...
+        </div>
+        
+        <button onclick="clearAndReload()">Clear Cache & Reload</button>
+        <button onclick="goToApp()">Go to LOS App</button>
+        
+        <div style="margin-top: 30px; padding: 20px; background: #fff3e0; border-radius: 5px;">
+            <h3>What this does:</h3>
+            <ul>
+                <li>Clears all localStorage cache</li>
+                <li>Forces browser to reload fresh data from JSON files</li>
+                <li>Redirects you to the login page</li>
+            </ul>
+            
+            <h3 style="margin-top: 20px;">After clearing:</h3>
+            <ol>
+                <li>Login with: <code>john.rm</code> / <code>password</code></li>
+                <li>You should see 12 applications</li>
+                <li>Statistics should show: 12 Total, 3 Draft, 3 Submitted, 3 Approved</li>
+            </ol>
+        </div>
+    </div>
+
+    <script>
+        function clearAndReload() {
+            const status = document.getElementById('status');
+            
+            // Clear all localStorage
+            localStorage.clear();
+            
+            // Also clear sessionStorage
+            sessionStorage.clear();
+            
+            status.className = 'status success';
+            status.innerHTML = `
+                <h3>✅ Cache Cleared Successfully!</h3>
+                <p>Redirecting to LOS application in 2 seconds...</p>
+                <p><strong>Note:</strong> You'll need to login again.</p>
+            `;
+            
+            // Redirect after 2 seconds
+            setTimeout(() => {
+                window.location.href = '/';
+            }, 2000);
+        }
+        
+        function goToApp() {
+            window.location.href = '/';
+        }
+    </script>
+</body>
+</html>

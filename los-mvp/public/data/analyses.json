@@ -1,0 +1,256 @@
+[
+  {
+    "id": "ANL-001",
+    "applicationId": "APP-2026-003",
+    "dscr": 1.85,
+    "netCashflow": 130000000,
+    "collateralCoverage": 1.20,
+    "riskScore": 25,
+    "flags": [
+      {
+        "severity": "low",
+        "category": "financial",
+        "message": "Strong DSCR indicates good debt servicing capacity",
+        "rationale": "DSCR of 1.85 is well above minimum threshold of 1.2"
+      },
+      {
+        "severity": "low",
+        "category": "collateral",
+        "message": "Adequate collateral coverage",
+        "rationale": "Collateral coverage of 1.20 meets minimum requirement"
+      },
+      {
+        "severity": "low",
+        "category": "credit",
+        "message": "Excellent credit score",
+        "rationale": "Credit score of 750 indicates strong creditworthiness"
+      }
+    ],
+    "recommendation": "APPROVE",
+    "recommendedConditions": [
+      "Maintain minimum DSCR of 1.2 throughout loan period",
+      "Quarterly financial reporting required",
+      "Insurance on collateral equipment mandatory"
+    ],
+    "assumptions": {
+      "revenueGrowth": "Conservative 5% annual growth assumed",
+      "expenseRatio": "Operating expenses maintained at 71% of revenue",
+      "marketConditions": "Stable technology sector demand"
+    },
+    "analystNotes": "Strong financial position with consistent revenue growth. Technology sector shows positive outlook.",
+    "createdBy": "user-002",
+    "createdAt": "2026-03-03T12:00:00.000Z"
+  },
+  {
+    "id": "ANL-002",
+    "applicationId": "APP-2026-004",
+    "dscr": 2.10,
+    "netCashflow": 35000000,
+    "collateralCoverage": 2.00,
+    "riskScore": 18,
+    "flags": [
+      {
+        "severity": "low",
+        "category": "financial",
+        "message": "Excellent DSCR ratio",
+        "rationale": "DSCR of 2.10 provides strong debt coverage"
+      },
+      {
+        "severity": "low",
+        "category": "collateral",
+        "message": "Strong collateral coverage",
+        "rationale": "Collateral coverage of 2.00 provides good security"
+      },
+      {
+        "severity": "low",
+        "category": "business",
+        "message": "Established business with 10 years track record",
+        "rationale": "Long operating history reduces business risk"
+      }
+    ],
+    "recommendation": "APPROVE",
+    "recommendedConditions": [
+      "Annual financial statement submission",
+      "Maintain collateral insurance",
+      "Notify bank of any major business changes"
+    ],
+    "assumptions": {
+      "seasonality": "Agricultural seasonality factored into cashflow projections",
+      "marketPrice": "Stable commodity prices assumed",
+      "weatherRisk": "Normal weather conditions expected"
+    },
+    "analystNotes": "Well-established agricultural business with strong financials. Seasonal nature of business well understood and managed.",
+    "createdBy": "user-002",
+    "createdAt": "2026-03-04T09:30:00.000Z"
+  },
+  {
+    "id": "ANL-003",
+    "applicationId": "APP-2026-005",
+    "dscr": 1.45,
+    "netCashflow": 90000000,
+    "collateralCoverage": 1.25,
+    "riskScore": 35,
+    "flags": [
+      {
+        "severity": "medium",
+        "category": "financial",
+        "message": "DSCR above minimum but moderate",
+        "rationale": "DSCR of 1.45 provides adequate but not strong coverage"
+      },
+      {
+        "severity": "low",
+        "category": "collateral",
+        "message": "Adequate collateral coverage",
+        "rationale": "Collateral coverage of 1.25 meets requirements"
+      },
+      {
+        "severity": "medium",
+        "category": "industry",
+        "message": "Construction sector cyclical risk",
+        "rationale": "Industry subject to economic cycles and project delays"
+      }
+    ],
+    "recommendation": "APPROVE",
+    "recommendedConditions": [
+      "Quarterly financial reporting mandatory",
+      "Maintain minimum DSCR of 1.2",
+      "Project completion insurance required",
+      "Monthly project progress updates"
+    ],
+    "assumptions": {
+      "projectCompletion": "On-time project completion assumed",
+      "paymentTerms": "Standard 30-day payment terms from clients",
+      "materialCosts": "Stable construction material prices"
+    },
+    "analystNotes": "Solid construction company with good track record. Project-based revenue requires close monitoring.",
+    "createdBy": "user-002",
+    "createdAt": "2026-03-03T16:15:00.000Z"
+  },
+  {
+    "id": "ANL-004",
+    "applicationId": "APP-2026-008",
+    "dscr": 1.95,
+    "netCashflow": 55000000,
+    "collateralCoverage": 1.43,
+    "riskScore": 22,
+    "flags": [
+      {
+        "severity": "low",
+        "category": "financial",
+        "message": "Strong DSCR indicates healthy cashflow",
+        "rationale": "DSCR of 1.95 well above minimum threshold"
+      },
+      {
+        "severity": "low",
+        "category": "collateral",
+        "message": "Good collateral coverage",
+        "rationale": "Equipment collateral provides 1.43x coverage"
+      },
+      {
+        "severity": "low",
+        "category": "business",
+        "message": "Long-established business",
+        "rationale": "12 years in business demonstrates stability"
+      }
+    ],
+    "recommendation": "APPROVE",
+    "recommendedConditions": [
+      "Semi-annual financial reporting",
+      "Equipment insurance mandatory",
+      "Maintain minimum working capital ratio"
+    ],
+    "assumptions": {
+      "equipmentLife": "10-year useful life for new machinery",
+      "productionCapacity": "80% capacity utilization assumed",
+      "marketDemand": "Stable demand for manufactured products"
+    },
+    "analystNotes": "Excellent manufacturing business with strong fundamentals. New equipment will improve efficiency and capacity.",
+    "createdBy": "user-002",
+    "createdAt": "2026-03-02T11:00:00.000Z"
+  },
+  {
+    "id": "ANL-005",
+    "applicationId": "APP-2026-009",
+    "dscr": 1.35,
+    "netCashflow": 55000000,
+    "collateralCoverage": 1.22,
+    "riskScore": 42,
+    "flags": [
+      {
+        "severity": "medium",
+        "category": "financial",
+        "message": "DSCR slightly above minimum",
+        "rationale": "DSCR of 1.35 provides limited cushion"
+      },
+      {
+        "severity": "medium",
+        "category": "business",
+        "message": "Relatively young business",
+        "rationale": "Only 3 years in operation increases risk"
+      },
+      {
+        "severity": "low",
+        "category": "collateral",
+        "message": "Adequate collateral coverage",
+        "rationale": "Equipment collateral provides 1.22x coverage"
+      }
+    ],
+    "recommendation": "REVIEW",
+    "recommendedConditions": [
+      "Monthly financial reporting required",
+      "Maintain minimum DSCR of 1.2",
+      "Additional personal guarantee recommended",
+      "Quarterly business review meetings"
+    ],
+    "assumptions": {
+      "clientRetention": "80% client retention rate assumed",
+      "projectPipeline": "Consistent project pipeline expected",
+      "techTrends": "Favorable technology adoption trends"
+    },
+    "analystNotes": "Growing technology company with potential but limited track record. Requires closer monitoring due to industry volatility.",
+    "createdBy": "user-002",
+    "createdAt": "2026-03-03T15:20:00.000Z"
+  },
+  {
+    "id": "ANL-006",
+    "applicationId": "APP-2026-012",
+    "dscr": 2.25,
+    "netCashflow": 35000000,
+    "collateralCoverage": 1.94,
+    "riskScore": 15,
+    "flags": [
+      {
+        "severity": "low",
+        "category": "financial",
+        "message": "Excellent DSCR ratio",
+        "rationale": "DSCR of 2.25 indicates very strong debt servicing capacity"
+      },
+      {
+        "severity": "low",
+        "category": "collateral",
+        "message": "Strong collateral coverage",
+        "rationale": "Land collateral provides 1.94x coverage"
+      },
+      {
+        "severity": "low",
+        "category": "business",
+        "message": "Very established business",
+        "rationale": "15 years operating history demonstrates stability"
+      }
+    ],
+    "recommendation": "APPROVE",
+    "recommendedConditions": [
+      "Annual financial statement submission",
+      "Standard loan covenants apply",
+      "Maintain property insurance"
+    ],
+    "assumptions": {
+      "cropYield": "Average crop yields based on historical data",
+      "marketPrice": "Conservative commodity price assumptions",
+      "weatherRisk": "Normal weather patterns expected"
+    },
+    "analystNotes": "Excellent agricultural business with very strong financials and long track record. Low risk profile.",
+    "createdBy": "user-002",
+    "createdAt": "2026-03-01T15:30:00.000Z"
+  }
+]
